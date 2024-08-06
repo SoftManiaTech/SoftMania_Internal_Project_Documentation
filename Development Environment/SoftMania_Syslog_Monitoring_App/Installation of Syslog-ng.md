@@ -46,6 +46,8 @@ Exit
 exit
 ```
 
+Repeat the above steps to install Syslog for 3 more clients and 1 server
+
 ## Configure Syslog-ng Client to send logs to Syslog-ng Server
 
 Login as root user using below command
