@@ -1,0 +1,49 @@
+Add the configurations to splunk universal forwarder: (inputs.conf & outputs.conf)
+
+Navigate to the C:\Program Files\SplunkUniversalForwarder\etc\apps\SplunkUniversalForwarder\local 
+
+Edit the "inputs.conf"
+
+Add the Configurations for "inputs.conf":
+
+[perfmon://CPU Load]
+counters = % Processor Time;% User Time
+instances = _Total
+interval = 10
+index = softmania_windows_monitoring_idx
+object = Processor
+
+[perfmon://Available Memory]
+counters = Available Bytes
+interval = 10
+index = softmania_windows_monitoring_idx
+object = Memory
+
+[perfmon://Free Disk Space]
+counters = Free Megabytes;% Free Space
+instances = _Total
+interval = 60
+index = softmania_windows_monitoring_idx
+object = LogicalDisk
+
+
+Navigate to the C:\Program Files\SplunkUniversalForwarder\etc\system\local
+
+Edit the outputs.conf
+
+Add the Configurations for "inputs.conf":
+
+[tcpout]
+defaultGroup = default-autolb-group
+
+[tcpout:default-autolb-group]
+server = “splunk instance ip address”:9997
+
+[tcpout-server:// “splunk instance ip address”:9997]
+
+Once you added the configurations then "Restart" the Universal forwarder
+
+Login to the Splunk / Indexer with your credentials.
+
+Go to "softmania_windows_monitoring_app" >> Run below query index=index="softmania_windows_monitoring_idx" 
+
