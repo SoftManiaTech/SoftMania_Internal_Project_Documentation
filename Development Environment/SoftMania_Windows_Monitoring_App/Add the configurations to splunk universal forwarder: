@@ -27,6 +27,11 @@ index = softmania_windows_monitoring_idx
 object = LogicalDisk
 
 
+
+
+
+
+
 Navigate to the C:\Program Files\SplunkUniversalForwarder\etc\system\local
 
 Edit the outputs.conf
