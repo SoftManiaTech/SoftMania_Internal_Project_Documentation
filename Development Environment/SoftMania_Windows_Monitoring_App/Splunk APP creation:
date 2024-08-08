@@ -1,0 +1,7 @@
+Splunk APP creation:
+
+login to your splunk instance 
+
+Navigate to "Apps" >> Click on "Manage Apps" >> Select "Create App"
+
+Enter your app "Softmania_Windows_Monitoring_App", Folder name "softmania_windows_monitoring_app", Version "1.0.0", >> click on "Save"
