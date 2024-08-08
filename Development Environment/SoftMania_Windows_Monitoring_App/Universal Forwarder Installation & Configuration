@@ -1,0 +1,23 @@
+Universal Forwarder Installation & Configuration
+
+Open the folder where the package was downloaded, Double click on the installer package >> Enable Licence Agreement >> Click “Customize Options” 
+
+Check the default directory for universal forwarder >> Click “Next”
+
+Skip this Credentials >> Click “Next”
+
+Enable The “Local System” >> Click “Next”
+
+(skip on the log selections) >> Click "Next"
+Select the (CPU, MEMORY, DISK) logs  >> Click “Next”
+
+Create your credentials >> Uncheck (Generate random password) >> Enter “Username” >> Password >> Confirm Password >> Click “Next”
+
+Skip the Deployment server configuration >> Click “Next”
+
+(skip the receiving indexer) >> Click "Next"
+Enter your Receiving Indexer (Hostname or IP address) >> Enter Default Port (9997) >> Click “Next”
+
+Click “Install” begin the installation >> Click “Next”
+
+Once Universal Forwarder successfully installed >> Click “Finish”
