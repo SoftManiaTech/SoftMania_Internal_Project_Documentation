@@ -10,3 +10,8 @@ Enter your app "Softmania_Windows_Monitoring_App", Folder name "softmania_window
 ## Index creation:
 
 Navigate to "Softmania_Windows_Monitoring_App" >> Go to "Settings" >> Click on "indexes" >> Select "New Index" >> Set Index Name "softmania_windows_monitoring_idx" >> Click on "Save"
+
+
+## Enable the Receiving data to splunk:
+
+Navigate to "Softmania_Windows_Monitoring_App" >> Go to "Settings" >> Click on "Forwarding & Receiving" >> Click on the "Configure receiving" >> Select "New Receiving Port" >> Enter the Port number "9997" >> Next click on "Save"
