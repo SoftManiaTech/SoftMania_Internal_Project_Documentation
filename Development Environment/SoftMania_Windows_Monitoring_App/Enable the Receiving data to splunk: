@@ -1,4 +1,0 @@
-Enable the Receiving data to splunk:
-
-Navigate to "Softmania_Windows_Monitoring_App" >> Go to "Settings" >> Click on "Forwarding & Receiving" >> Click on the "Configure receiving" >> Select "New Receiving Port" >> Enter the Port number "9997" >> Next click on "Save"
-
