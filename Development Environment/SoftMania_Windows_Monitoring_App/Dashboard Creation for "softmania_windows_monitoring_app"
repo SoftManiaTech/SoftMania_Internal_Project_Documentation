@@ -1,3 +1,4 @@
-Dashboard Creation for "softmania_windows_monitoring_app"
-
-Login to your splunk >> Navigate to "softmania_windows_ monitoring_app" >> Click on the "Dashboards" >> "Create New Dashboard" >> Give the Dashboard title "Softmania Windows Monitoring Dashboard" >> select the "Classic Dashboard" >> Click on "Create".
+How to create "Softmania_Windows_Monitoring_App" Dashboard.
+```bash
+https://docs.google.com/document/d/17ZIfDLRliHNQqhO0I7qXoesFBiXvlFWozpJsopzoWsk/edit
+```
